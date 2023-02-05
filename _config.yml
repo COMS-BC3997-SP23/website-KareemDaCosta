@@ -27,8 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: KareemDaCosta
 
 # Build settings
-theme: "jekyll-theme-clean-blog"
-remote_theme: "jekyll-theme-clean-blog"
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
     - jekyll-feed
 # Exclude from processing.

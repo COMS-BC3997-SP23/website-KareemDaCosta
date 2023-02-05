@@ -49,3 +49,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+ defaults:
+  -   
+   scope:
+     type: pages
+   values:
+     permalink: /website-KareemDaCosta/:path/:basename:output_ext
+  -   
+   scope:
+     type: posts
+   values:
+     permalink: /website-KareemDaCosta/:year/:month/:day/:title

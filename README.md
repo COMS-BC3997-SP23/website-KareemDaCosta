@@ -49,9 +49,12 @@ I decided to use React.js for the frontend and Node.js/Express.js for the backen
 ### Why React over Angular?
 
 https://kinsta.com/blog/angular-vs-react/
-Markup : - Angular’s strengths include its detailed documentation and ongoing support by Google. It also is built on TypeScript, which makes it easier to identify errors. - React.js’s strengths are that it is extremely lightweight and has many third-party libraries. Additionally, it focuses on render speed, which will make the website load faster.
-https://www.freecodecamp.org/news/angular-vs-react-what-to-choose-for-your-app-2/
-Markup : - Angular doesn’t require additional libraries, but it is difficult to learn. When it comes to expansion, since Sustainable Sister is made of college students, any incoming developers would most likely not have much exposure to either React.js or Angular. Since React.js is easier to learn, it would make more sense from a growth standpoint. - React’s one-way data binding (data flows from parents in the DOM to children, but not the other way around) makes it fast, and the inflexibility this structure provides can be offset through state management systems like Redux or Recoil. - CreateReactApp makes it very easy to set up and start working in a React.js app.
+
+-   Angular’s strengths include its detailed documentation and ongoing support by Google. It also is built on TypeScript, which makes it easier to identify errors.
+-   React.js’s strengths are that it is extremely lightweight and has many third-party libraries. Additionally, it focuses on render speed, which will make the website load faster.
+    https://www.freecodecamp.org/news/angular-vs-react-what-to-choose-for-your-app-2/
+-   Angular doesn’t require additional libraries, but it is difficult to learn. When it comes to expansion, since Sustainable Sister is made of college students, any incoming developers would most likely not have much exposure to either React.js or Angular. Since React.js is easier to learn, it would make more sense from a growth standpoint.
+-   React’s one-way data binding (data flows from parents in the DOM to children, but not the other way around) makes it fast, and the inflexibility this structure provides can be offset through state management systems like Redux or Recoil. - CreateReactApp makes it very easy to set up and start working in a React.js app.
 
 ### Why Node.js/Express.js over Django?
 

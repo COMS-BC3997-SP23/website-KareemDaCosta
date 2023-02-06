@@ -1,4 +1,4 @@
-# Project Proposal: Kareem DaCosta
+# Project Proposal - Kareem DaCosta
 
 ## Project Purpose
 

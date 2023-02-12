@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Standup 1"
+date: 2023-02-12 15:51:13 -0500
+categories: standup
+---
+
+I began this week by researching different frameworks for web scraping. I settled on two Python libraries: selenium, which could be used as a headless browser that could interact with the JavaScript of a website, and Scrapy, which could quickly spider out to different websites (go from one link to many in a web-like fashion). I made a script in Selenium to get the links I needed to scrape, and the using Scrapy to get the information needed and go to different pages and whatnot.
+
+After hours of coding, I got the Selenium script working, which output a file displayed a company name along with its corresponding link. I then started working on the Scrapy script, which again took multiple hours (in total, I would estimate a sum of 15-20 hours). And after a ton of debugging, it worked!
+
+But it worked too well. The script was running for around 20 minutes, gathering a total of 60 thousand items before I stopped it. The reason why I cut it off is a bit silly, but ultimately, I was worried about consequences to that much web scraping. At around 50 items per page, I was pinging the website's server around 1200 times in those 20 minutes. Which isn't an insane amount, but definitely enough for them to notice (and for google to make me do a captcha upon my next search). So I will share this update with my company and maybe rethink how we plan on building our inventory. Ultimately, we are going to need affiliate links in order to make a profit, so if companies are willing to distribute affiliate links, perhaps they also have an endpoint for getting their inventory in a more mutually agreeable manner.
+
+On the flip side, Google's entire search business is built around crawling websites. Perhaps implementing a slowdown so that I don't overload the site would be a good method if we can't figure out an effective way to recieve the inventory from the companies themselves.

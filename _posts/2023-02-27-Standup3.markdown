@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Standup 3"
+date: 2023-02-26 16:23:15 -0500
+categories: standup
+---
+
+The scraper had a few issues, namely that it was crashing if the state of the browser wasn't exactly as expected. This week I worked on adding redundancy through a bunch of try/except blocks, making sure to always return the state to where it was supposed to be after refreshing or restarting the driver. With this improvement, the script ran until I recieved an error sayign `('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))`, which either means my script crashed, or the website I was scraping refused my connection. But regardless, in our company's weekly meeting we decided to change how we will fill our database, so the items I was able to scrape will be used for testing purposes (I will perhaps make duplicate items to attempt to fill in what was missing after the connection got terminated).
+
+My next steps will be to set up the Azure database, and after completion of that, transition to working on the frontend.
